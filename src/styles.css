@@ -80,11 +80,11 @@ background-size: 100%;
   width:190px;
   margin: 15px 5px 15px 5px;
   border: none;
-  background-color: white;
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(173, 14, 14);
   padding:3px;
-  font-size: small;
-  font-weight:normal;
+  font-size: medium;
+  font-weight:bold;
 }
 
 /* Add form */

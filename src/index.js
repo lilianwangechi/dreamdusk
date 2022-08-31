@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     const pPrice = document.createElement('p')
     //const pDescription = document.createElement('p')
     // const h4 = document.createElement('h4')
-    // const ingredients = document.createElement('p')
+    // const ingredients =document.createElement('p')
     // const method = document.createElement('p')
-    // const btn = document.createElement('button')
+    const btn = document.createElement('button')
   
   
   li.className ='makeuplist-li'
@@ -26,12 +26,11 @@ document.addEventListener('DOMContentLoaded',()=>{
   img.src =cardData.image_link
   //pDescription.textContent = cardData.description
   pPrice.textContent = `$${cardData.price}`
-  // p.textContent = cardData.Ingredients
-  // p.textContent = cardData.Method//own rray
-  // btn.textContent ='Delete'
+  btn.textContent ='Buy'
   
-  li.append(pName,img,pPrice)
+  li.append(pName,img,pPrice,btn)
   document.querySelector('#makeup-list').append(li)
+
   }
   
   function getRecipes(){
