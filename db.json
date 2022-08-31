@@ -1,0 +1,885 @@
+{
+  "lipsticks":
+  [
+  
+  {
+    "id": 177,
+    "brand": "maybelline",
+    "name": "Maybelline Line Stiletto Ultimate Precision Liquid Eyeliner",
+    "price": "10.29",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/350d6c6c2fa3add8ee40189cd19bfe0a_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-line-stiletto-ultimate_17295.html",
+    "website_link": "https://well.ca",
+    "description": "Easily Creates Slender Lines\n\n    Rich, Even Color\n    All-Day Wear\n    Smooth Glide Felt Tip\n    Flexible tip guides on smoothly for the most precise control.\n    All-day wear up to 8 hours\n",
+    "rating": 4.0,
+    "category": "liquid",
+    "product_type": "eyeliner",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:27:50.155Z",
+    "updated_at": "2017-12-23T20:51:16.164Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/177.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/177/original/open-uri20171223-4-p0eowt?1514062276",
+    "product_colors": [
+      {
+        "hex_value": "#000000",
+        "colour_name": "Blackest Black "
+      },
+      {
+        "hex_value": "#4E2F2F",
+        "colour_name": "Brown Black "
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "brand": "maybelline",
+    "name": "Maybelline Liquid Eyeliner",
+    "price": "10.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/316d25ac5676470d83612b9391678b0d_ra,w158,h184_pa,w158,h184.jpeg",
+    "product_link": "https://well.ca/products/maybelline-liquid-eyeliner_3739.html",
+    "website_link": "https://well.ca",
+    "description": "\nWaterproof Liquid Eyeliner draws intense lining in an instant.\nIt glides on smoothly for even coverage.\nThe firm felt tip applicator allows easy control.\nWaterproof, all-day wear.\n",
+    "rating": 4.2,
+    "category": "liquid",
+    "product_type": "eyeliner",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:27:44.166Z",
+    "updated_at": "2017-12-23T20:51:13.942Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/172.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/172/original/data?1514062273",
+    "product_colors": [
+      {
+        "hex_value": "#06090A",
+        "colour_name": "Black "
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "brand": "maybelline",
+    "name": "Maybelline Eye Studio Lasting Drama Gel Eyeliner",
+    "price": "11.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/2054f702d243c286219e0330af836bf5_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-eye-studio-lasting-drama_23247.html",
+    "website_link": "https://well.ca",
+    "description": "Maybelline Eye Studio Lasting Drama Gel Eyeliner gives you smudge-proof lines that are waterproof for 24 hours. Features:            Oil-free formula holds highly concentrated pigments in a clear gel baseSmudge-proof and waterproof for 24 hoursMost intense line for lasting drama                                                    Safe for sensitive eyes and ophthalmologist-testedContact lens safe\n\t\tRemoves easily with Expert Eyes® Moisturizing Eye Makeup Remover.Maybelline Eye Studio Lasting Drama Gel Eyeliner is one of our 10 Makeup Must Haves.  See the full list on The Well.  ",
+    "rating": 4.4,
+    "category": "liquid",
+    "product_type": "eyeliner",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:27:42.507Z",
+    "updated_at": "2017-12-23T20:51:13.684Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/170.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/170/original/open-uri20171223-4-1hy3kmf?1514062273",
+    "product_colors": [
+      {
+        "hex_value": "#000000",
+        "colour_name": "Blackest Black 950 "
+      },
+      {
+        "hex_value": "#60423B",
+        "colour_name": "Brown 952 "
+      },
+      {
+        "hex_value": "#4A484B",
+        "colour_name": "Charcoal 954 "
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "brand": "maybelline",
+    "name": "Maybelline Color Show Nail Lacquer Jewels ",
+    "price": "4.49",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/f6239cbcd84fa838c461f020b86924aa_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-show-nail-lacquer_96730.html",
+    "website_link": "https://well.ca",
+    "description": "Maybelline Color Show Nail Lacquer Jewels collection features jeweled nail lacquer top coats straight from the shows!Features:Adorns your nails with textured gem effectsTrendy top coat nail art designsEasy-flow brushFormaldehyde, DBP and Toluene freeShade Range: (left to right: Mosaic Prism, Platinum Adorn)For Best Results:First apply a clear base coat to prevent your nails from yellowing and to help your nail color last longer. Choose a base shade and with one sweep, paint the first line of nail polish up the center of your nail starting from the base to the tip.For the cleanest look, be sure to leave a small space at the base of the nail. Then apply nail color to the rest of the nail. Pick your textured top coat and paint over your base shade for a street styled nail art look.",
+    "rating": 3.0,
+    "category": null,
+    "product_type": "nail_polish",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:26:51.778Z",
+    "updated_at": "2017-12-23T20:51:08.631Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/146.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/146/original/open-uri20171223-4-fnr4hp?1514062268",
+    "product_colors": [
+      
+    ]
+  },
+  {
+    "id": 145,
+    "brand": "maybelline",
+    "name": "Maybelline Color Show Nail Lacquer Veils ",
+    "price": "4.49",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/64cbcfbd001435c3abc3d8f77c16a0bf_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-show-nail-lacquer_96731.html",
+    "website_link": "https://well.ca",
+    "description": "Maybelline Color Show Nail Lacquer Veils collection gives you subtle shimmers to refined glitters in colours straight from the shows!Features:Trendy top coat nail art designsEasy-flow brushFormaldehyde, DBP and Toluene freeShade Range: (left to right: Amethyst Aura, Rose Mirage, Crystal Disguise)For Best Results:First\n apply a clear base coat to prevent your nails from yellowing and to \nhelp your nail color last longer. Choose a base shade and with one \nsweep, paint the first line of nail polish up the center of your nail \nstarting from the base to the tip.For the cleanest look, be sure\n to leave a small space at the base of the nail. Then apply nail color \nto the rest of the nail. Pick your textured top coat and paint over your\n base shade for a street styled nail art look.",
+    "rating": 4.0,
+    "category": null,
+    "product_type": "nail_polish",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:26:50.448Z",
+    "updated_at": "2017-12-23T20:51:08.413Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/145.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/145/original/open-uri20171223-4-1a63bxt?1514062268",
+    "product_colors": [
+      {
+        "hex_value": "#394674",
+        "colour_name": "Amethyst Aura "
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "brand": "maybelline",
+    "name": "Maybelline Color Show Nail Lacquer ",
+    "price": "4.49",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/a05aa31a7e30d9d262ae36d0be2c4f87_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-show-nail-lacquer_78068.html",
+    "website_link": "https://well.ca",
+    "description": "High fashion meets high-art. With Maybelline Color Show Nail Lacquer PolkaDots Collection you get 3D nail design for your fingertips!Features: \nCreates Hollywood-worthy special effectsChip-resistant formula Easy-flow brushFormaldehyde, DBP and Toluene freeShade Range: \n",
+    "rating": 3.3,
+    "category": null,
+    "product_type": "nail_polish",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:26:31.673Z",
+    "updated_at": "2017-12-23T20:51:05.961Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/133.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/133/original/open-uri20171223-4-zz1pau?1514062265",
+    "product_colors": [
+      {
+        "hex_value": "#037679",
+        "colour_name": "Drops of Jade  (55) "
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "brand": "maybelline",
+    "name": "Maybelline Color Sensational Vivid Matte Liquid Lip Colour",
+    "price": "12.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/d0b6855d9b603a00f776de498c971b88_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-sensational-vivid_114538.html",
+    "website_link": "https://well.ca",
+    "description": "Bold, vivid color glides easily onto lips for a velvety matte finish with Maybelline Color Sensational Vivid Matte Liquid Lip Colour. \nFormula is comfortable and creamy with a smooth feel upon application. \nWith full color coverage, the result is a rich, intense lip look in a \nrange of colors from Nude Flush to Electric Pink to Vivid Violet.Features: Lip color glides on smooth to a matte finishInfused with pure pigments for high-impact colorCreamy liquid base for a soft, cushiony feel",
+    "rating": null,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:25:33.281Z",
+    "updated_at": "2017-12-23T20:50:59.331Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/97.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/097/original/open-uri20171223-4-128aihq?1514062259",
+    "product_colors": [
+      {
+        "hex_value": "#AC7773",
+        "colour_name": "Nude Thrill "
+      },
+      {
+        "hex_value": "#BD7A80",
+        "colour_name": "Nude Flush "
+      },
+      {
+        "hex_value": "#D65F84",
+        "colour_name": "Pink Charge "
+      },
+      {
+        "hex_value": "#D73D8C",
+        "colour_name": "Electric Pink "
+      },
+      {
+        "hex_value": "#B12156",
+        "colour_name": "Fuchsia Ecstasy "
+      },
+      {
+        "hex_value": "#BC2830",
+        "colour_name": "Orange Shot "
+      },
+      {
+        "hex_value": "#B7233B",
+        "colour_name": "Rebel Red "
+      },
+      {
+        "hex_value": "#8C1F48",
+        "colour_name": "Berry Boost "
+      },
+      {
+        "hex_value": "#542A71",
+        "colour_name": "Vivid Violet "
+      },
+      {
+        "hex_value": "#300B28",
+        "colour_name": "Possessed Plum "
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "brand": "maybelline",
+    "name": "Maybelline Color Sensational Rebel Bloom Lipcolour ",
+    "price": "9.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/fb9e6485500135d94163577da4c3579b_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-sensational-rebel_101920.html",
+    "website_link": "https://well.ca",
+    "description": "\n                       \n\tMaybelline Color Sensational® Rebel Bloom lipstick offers vivacious pastels in a super-saturated lipcolour. Enjoy the kicky bouquet of lip colors in \npinks, reds and mauves.  Features:Super-saturated pigments take fresh picked pastels to a new bright\nNever dull, washed out or shy\nHoney nectar adds a sumptuous feel\n\n\t\tApplication: Apply lipcolor starting in the center of your upper lip. Work\n from the center to the outer edges of your lip, following the contours \nof your mouth. Then glide across the entire bottom lip.\n\n\t\t\n\t\n\n                    ",
+    "rating": 3.0,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:25:20.981Z",
+    "updated_at": "2017-12-23T20:50:59.663Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/89.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/089/original/open-uri20171223-4-pkrmxd?1514062259",
+    "product_colors": [
+      {
+        "hex_value": "#db967f",
+        "colour_name": "Barely Bloomed "
+      },
+      {
+        "hex_value": "#d37d79",
+        "colour_name": "Blushing Bud "
+      },
+      {
+        "hex_value": "#f05b4a",
+        "colour_name": "Coral Burst "
+      },
+      {
+        "hex_value": "#cd86b0",
+        "colour_name": "Lilac Flush "
+      },
+      {
+        "hex_value": "#ff8f9d",
+        "colour_name": "Petal Pink "
+      },
+      {
+        "hex_value": "#bd2629",
+        "colour_name": "Rose Rush "
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "brand": "maybelline",
+    "name": "Maybelline Lip Studio Color Blur ",
+    "price": "11.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/a1151b59f69491a75d9f8d80827bc1ee_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-lip-studio-color-blur_106565.html",
+    "website_link": "https://well.ca",
+    "description": "Maybelline's Lip Studio Color Blur is a unique cream matte pencil with vivid colour.  The blurring smudger allows you to create your look from full on bold to softly blurred.Features:The cream matte pencil feels extremely smooth and comfortable on lips The blurring smudger means you can create your own looks from full-on bold to softly blurredColor Blur comes in many shades ranging from vivids to neutralsHow to Use: To achieve the softly blurred look, apply colour in the center of your top and bottom lips. Using the smudger, gently blur the colour out towards the edges of your top lip and then bottom lip.",
+    "rating": null,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:25:14.865Z",
+    "updated_at": "2017-12-23T20:50:59.009Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/85.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/085/original/open-uri20171223-4-1cl0hgq?1514062258",
+    "product_colors": [
+      {
+        "hex_value": "#EF6E87",
+        "colour_name": "Berry Misbehaved "
+      },
+      {
+        "hex_value": "#CF444B",
+        "colour_name": "Cherry Cherry Bang Bang  "
+      },
+      {
+        "hex_value": "#FF94A7",
+        "colour_name": "Fast & Fuchsia  "
+      },
+      {
+        "hex_value": "#E18CB0",
+        "colour_name": "I Like to Mauve It "
+      },
+      {
+        "hex_value": "#F393B0",
+        "colour_name": "I'm Blushing! "
+      },
+      {
+        "hex_value": "#C06E8A",
+        "colour_name": "My-My Magenta "
+      },
+      {
+        "hex_value": "#B42F3F",
+        "colour_name": "Partner in Crimson  "
+      },
+      {
+        "hex_value": "#FF99DC",
+        "colour_name": "Pink Insanity  "
+      },
+      {
+        "hex_value": "#955C69",
+        "colour_name": "Plum, Please "
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "brand": "maybelline",
+    "name": "Maybelline Color Sensational The Buffs Lipcolour",
+    "price": "9.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/27afa69db661563a1d6135bb5f6079dd_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-sensational-the_88857.html",
+    "website_link": "https://well.ca",
+    "description": "Raw. Real. Pigments explode with sensuous impact…sensational! Maybelline Color Sensational The Buffs Lipcolour have true nude lip color pigments for honest flesh tone color. This range has it all, from blushing beige, to bronze, to espresso.\n\t\tFor Best Results: Apply your nude lip color lipstick by starting in the center \nof your upper lip. Work from the center to the outer edges of your lip, \nfollowing the contours of your mouth. Then glide across the entire \nbottom lipShade Range: \n\t\n\n                    ",
+    "rating": 4.8,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:24:56.389Z",
+    "updated_at": "2017-12-23T20:51:18.174Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/73.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/073/original/open-uri20171223-4-92movw?1514062278",
+    "product_colors": [
+      {
+        "hex_value": "#E3A28C",
+        "colour_name": "Bare All "
+      },
+      {
+        "hex_value": "#EB907D",
+        "colour_name": "Blushing Beige "
+      },
+      {
+        "hex_value": "#DD8A78",
+        "colour_name": "Nude Lust "
+      },
+      {
+        "hex_value": "#A95D50",
+        "colour_name": "Maple Kiss "
+      },
+      {
+        "hex_value": "#E2937F",
+        "colour_name": "Truffle Tease  "
+      },
+      {
+        "hex_value": "#D47661",
+        "colour_name": "Stormy Sahara "
+      },
+      {
+        "hex_value": "#8A3938",
+        "colour_name": "Untainted Spice "
+      },
+      {
+        "hex_value": "#590004",
+        "colour_name": "Expresso Exposed  "
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "brand": "maybelline",
+    "name": "Maybelline Color Sensational Vivids Lipcolour",
+    "price": "9.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/0d31f41c37fd18dfc02daa1671719378_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-sensational-vivids_66103.html",
+    "website_link": "https://well.ca",
+    "description": "With Maybelline Colour Sensational Vivids Lipcolour bright goes gorgeous, never garish!Get brighter color from Maybelline's exclusive vivid pigments.﻿ Plus get creamier feel from nourishing honey nectar.﻿ Features: Be bright and gorgeousExclusive Vivid colors are brighterHoney nectar formula nourishes lips﻿For Best Results: Apply lipcolor starting in the center of your upper lip. Work from the center to the outer edges of your lip, following the contours of your mouth. Then glide across the entire bottom lip.﻿Shade Range: ",
+    "rating": 5.0,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:24:55.093Z",
+    "updated_at": "2017-12-23T20:50:55.568Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/72.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/072/original/open-uri20171223-4-jaz2h8?1514062255",
+    "product_colors": [
+      {
+        "hex_value": "#f9005b",
+        "colour_name": "Vivid Rose (825) "
+      },
+      {
+        "hex_value": "#ff2e8c",
+        "colour_name": "Fuchsia Flash (865) "
+      },
+      {
+        "hex_value": "#ff4a62",
+        "colour_name": "Shocking Coral (870) "
+      },
+      {
+        "hex_value": "#ff3b00",
+        "colour_name": "Electric Orange (880) "
+      },
+      {
+        "hex_value": "#ff6ab6",
+        "colour_name": "Pink Pop (880) "
+      },
+      {
+        "hex_value": "#ba0000",
+        "colour_name": "On Fire Red (895) "
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "brand": "maybelline",
+    "name": "Maybelline Color Sensational Creamy Mattes Lipcolour ",
+    "price": "9.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/81fd80f898674d00f1860cd0724460f4_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-sensational-creamy_100322.html",
+    "website_link": "https://well.ca",
+    "description": "Maybelline Creamy Mattes by Color Sensational deliver a burst of bold lip color and a surge of creamy texture in great make-a-statement shades, for mattes your lips will love to wear!Features: Lips slip into this creamy matteMattifying cream pure pigments and three precious oilsMake-a-statement shades",
+    "rating": 5.0,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:24:51.748Z",
+    "updated_at": "2017-12-23T20:50:56.946Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/69.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/069/original/open-uri20171223-4-uyvfh1?1514062256",
+    "product_colors": [
+      {
+        "hex_value": "#ff1303",
+        "colour_name": "Craving Coral "
+      },
+      {
+        "hex_value": "#e87e74",
+        "colour_name": "Daringly Nude "
+      },
+      {
+        "hex_value": "#ff2f99",
+        "colour_name": "Faint For Fuchsia "
+      },
+      {
+        "hex_value": "#db5c83",
+        "colour_name": "Lust for Blush "
+      },
+      {
+        "hex_value": "#ec0064",
+        "colour_name": "Mesmerizing Magenta "
+      },
+      {
+        "hex_value": "#f5367d",
+        "colour_name": "Ravishing Rose (Bright Rose Pink) "
+      },
+      {
+        "hex_value": "#b63849",
+        "colour_name": "Touch of Spice "
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "brand": "maybelline",
+    "name": "Maybelline Color Sensational Lipcolour",
+    "price": "9.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/b1c627d5a7e341e53754c8dee92d2878_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-color-sensational_14537.html",
+    "website_link": "https://well.ca",
+    "description": "Maybelline Colour Sensational Lipcolour will make you fall in love with color, all over again! Features: \n\nCrisper color from pure pigments \nCreamier feel from nourishing honey nectar \nLipcolor so rich, so stunning… it’s sensational Incredible colour range, from pinks, plums, reds and bronze\n\n ",
+    "rating": 4.2,
+    "category": "lipstick",
+    "product_type": "lipstick",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:24:44.446Z",
+    "updated_at": "2017-12-23T20:50:57.314Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/65.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/065/original/open-uri20171223-4-f2n6t8?1514062257",
+    "product_colors": [
+      {
+        "hex_value": "#E70C2F",
+        "colour_name": "Are you Red-dy "
+      },
+      {
+        "hex_value": "#DF8A82",
+        "colour_name": "Born With It "
+      },
+      {
+        "hex_value": "#F15B50",
+        "colour_name": "Coral Crush "
+      },
+      {
+        "hex_value": "#8F332C",
+        "colour_name": "Crazy for Coffee "
+      },
+      {
+        "hex_value": "#CA6E6B",
+        "colour_name": "Warm Me Up "
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "brand": "maybelline",
+    "name": "Maybelline Volum'Express Falsies Big Eyes Mascara",
+    "price": "12.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/a28e1387642c86f2d2e0cf446b2137aa_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-volumexpress-falsies-big_78175.html",
+    "website_link": "https://well.ca",
+    "description": "2 brushes. 2x more impact!Now get bigger eyes with 360 degrees of false \nlash glam volume! Upper lashes get over-the-top glam with the upper \nbrush, while the lower brush grabs every tiny lower lash for a full \ncircle effect.For best results: Apply the Upper Brush against the top lid lashes and sweep from\n root to tip until a clean, voluminous look is achieved, followed by the\n lower lash line using the lower Micro Brush. Do not let dry between \ncoats. Removes easily with soap and water or with Maybelline® Clean \nExpress!™ Classic Eye Makeup Remover.\n",
+    "rating": 4.5,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:11:34.910Z",
+    "updated_at": "2017-12-23T20:50:53.492Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/42.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/042/original/open-uri20171223-4-b55ku9?1514062253",
+    "product_colors": [
+      {
+        "hex_value": "#000000",
+        "colour_name": "Blackest Black "
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "brand": "maybelline",
+    "name": "Maybelline Define-A-Lash Lengthening & Defining Mascara",
+    "price": "10.79",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/cf9136ade1dd304b8cb81deb4b87e333_ra,w158,h184_pa,w158,h184.jpeg",
+    "product_link": "https://well.ca/products/maybelline-define-a-lash-lengthening_3744.html",
+    "website_link": "https://well.ca",
+    "description": "Define-A-Lash Lengthening & Defining Mascara is a zero-clump mascara that creates stunning length and clean definition. The flexible brush is shaped to the lash to elongate and define lashes, one by one. The built-in wiper contours brush to remove excess formula, ensuring clean deposit on lashes. There is no smudging, smearing or flaking, and the smooth, lightweight formula feels comfortable on lashes.Allergy tested, ophthalmologist tested and contact lens safe.\n\n",
+    "rating": 4.4,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:11:22.926Z",
+    "updated_at": "2017-12-23T20:31:52.284Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/32.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/032/original/data?1514061112",
+    "product_colors": [
+      {
+        "hex_value": "#000000",
+        "colour_name": "Very Black "
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "brand": "maybelline",
+    "name": "Maybelline Great Lash - Clear",
+    "price": "7.79",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/6cce75ce02a6694e1c89f7d5a68c8174_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-great-lash-clear_3752.html",
+    "website_link": "https://well.ca",
+    "description": "Great Lash Clear Washable Mascara is a crystal clear formula that gives a softer, fuller look.The gentle brush separates lashes into a perfect fan. It contains panthenol to condition lashes, glycerin for a soft feel. This is great for shaping and setting brows. Contact lens safe, opthalmologist tested.\n ",
+    "rating": 3.8,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:11:20.042Z",
+    "updated_at": "2017-12-23T20:31:51.787Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/29.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/029/original/open-uri20171223-4-14f14ix?1514061111",
+    "product_colors": [
+      
+    ]
+  },
+  {
+    "id": 23,
+    "brand": "maybelline",
+    "name": "Maybelline Great Lash Big Mascara",
+    "price": "7.79",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/0795abd7feaf855f88055e181652d65a_ra,w158,h184_pa,w158,h184.jpeg",
+    "product_link": "https://well.ca/products/maybelline-great-lash-big-mascara_15818.html",
+    "website_link": "https://well.ca",
+    "description": "Live Big! Great Lash Big has a Bigger Brush for Great Big Live-It-Up Lashes!\n\nThe Great Big Brush provides a bigger, bolder lash effect\nGreat buildable formula still conditions as it thickens with even greater intensity\nNo clumps or globs\n",
+    "rating": 4.0,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:11:13.293Z",
+    "updated_at": "2017-12-23T20:31:49.724Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/23.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/023/original/data?1514061109",
+    "product_colors": [
+      {
+        "hex_value": "#000000",
+        "colour_name": "Blackest Black "
+      },
+      {
+        "hex_value": "#120C0A",
+        "colour_name": "Brownish Black "
+      },
+      {
+        "hex_value": "#0E0F11",
+        "colour_name": "Very Black "
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "brand": "maybelline",
+    "name": "Maybelline Great Lash Mascara",
+    "price": "7.79",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/6b4d354890177a73b4d6630d723c2f21_ra,w158,h184_pa,w158,h184.jpeg",
+    "product_link": "https://well.ca/products/maybelline-great-lash-mascara_3735.html",
+    "website_link": "https://well.ca",
+    "description": "Great Lash Waterproof Mascara conditions as it thickens lashes. The lash-doubling formula glides on smoothly to build great-looking smudge-proof lashes. The lash-building brush makes it easy to get a full lash look without clumps. Hypoallergenic and contact lens safe.\nAllure 2008 Reader's Choice Award Winner for drugstore mascara.\n",
+    "rating": 4.2,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:11:09.921Z",
+    "updated_at": "2017-12-23T20:31:50.950Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/20.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/020/original/data?1514061110",
+    "product_colors": [
+      {
+        "hex_value": "#120C0A",
+        "colour_name": "Brownish Black "
+      },
+      {
+        "hex_value": "#0E0F11",
+        "colour_name": "Very Black "
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "brand": "maybelline",
+    "name": "Maybelline Volum' Express Colossal Mascara",
+    "price": "9.79",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/5d6e0d96f6dedbc3aadd88d9403cb26e_ra,w158,h184_pa,w158,h184.jpeg",
+    "product_link": "https://well.ca/products/maybelline-volum-express-colossal_7663.html",
+    "website_link": "https://well.ca",
+    "description": "Why You'll Love It\n\nCreates 9X the volume, instantly.\nPatented MegaBrush + Collagen Formula plump lashes one by one \nDramatic Volume with no clumps \nWashable \n",
+    "rating": 4.5,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:11:01.516Z",
+    "updated_at": "2017-12-23T20:31:48.510Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/14.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/014/original/data?1514061108",
+    "product_colors": [
+      {
+        "hex_value": "#0D090A",
+        "colour_name": "Classic Black "
+      },
+      {
+        "hex_value": "#000000",
+        "colour_name": "Glam Black "
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "brand": "maybelline",
+    "name": "Maybelline Illegal Length Fiber Extensions Mascara",
+    "price": "11.49",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/086bd6bba51f630f60511cdc24c68096_ra,w158,h184_pa,w158,h184.jpeg",
+    "product_link": "https://well.ca/products/maybelline-illegal-length-fiber_84357.html",
+    "website_link": "https://well.ca",
+    "description": "Build 4mm of measurable extensions! Features: Fiber-fix brush has 6 different contact points with each lash for optimal fiber placementBreakthrough formula contains fibers up to 4mm in lengthSealing formula stretches lashes and seals fibers to lashesWashable, also available in waterproof formula \nFor Best Results: Extend lashes upward with Fiber-Fix brush, from root to tip. \nOnly a few strokes necessary. For best results, do not let dry between \ncoats.  Removes easily with soap and water or Maybelline® Expert Eyes® \n100% Oil-Free Eye Makeup Remover.\n",
+    "rating": 4.0,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:10:59.587Z",
+    "updated_at": "2017-12-23T20:31:48.155Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/12.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/012/original/data?1514061108",
+    "product_colors": [
+      {
+        "hex_value": "#000000",
+        "colour_name": "Blackest Black "
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "brand": "maybelline",
+    "name": "Maybelline Volum' Express The Rocket Mascara",
+    "price": "10.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/0b04408a84154f14800e4c9477f8a924_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-volum-express-the-rocket_84350.html",
+    "website_link": "https://well.ca",
+    "description": "Explosive Volume in Rocket Time! 8X Bigger, Smoother.\n\nNow, the most explosive, beautiful lashes ever! Maybelline's patented supersonic \nbrush with micro bristles loads on big, sleek volume instantly.\n\nThe fast-glide formula keeps lashes smooth. Zero clumps!",
+    "rating": null,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:10:58.856Z",
+    "updated_at": "2017-12-23T20:31:47.966Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/11.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/011/original/open-uri20171223-4-iiztlg?1514061107",
+    "product_colors": [
+      {
+        "hex_value": "#000000",
+        "colour_name": "Blackest Black "
+      },
+      {
+        "hex_value": "#202020",
+        "colour_name": "Very Black "
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "brand": "maybelline",
+    "name": "Maybelline Great Lash Lots of Lashes Mascara",
+    "price": "7.79",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/dfaf77464a8cb52a1a8f2a15e8abf920_ra,w158,h184_pa,w158,h184.png",
+    "product_link": "https://well.ca/products/maybelline-great-lash-lots-of-lashes_50739.html",
+    "website_link": "https://well.ca",
+    "description": "Introducing a Great Lash innovation - Great Lash Lots of Lashes!The favourite Maybelline mascara now gives the look of more lashes than ever, thanks to the exclusive Great Little Grabber Brush. In just one swipe, the Grabber Brush easily reaches all lashes - even \nin the corners - for a multiplied lash look without the clumps. The result? Great lashes with lots of impact and not a lot of work.For best results: sweep brush from root to \ntip of lashes. Continue building volume until the desired lash look is \nachieved. Do not let dry between coats. Removes easily with soap and \nwater or eye makeup remover. \n                    ",
+    "rating": 4.2,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:10:56.475Z",
+    "updated_at": "2017-12-23T20:31:47.757Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/9.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/009/original/open-uri20171223-4-axycg0?1514061107",
+    "product_colors": [
+      {
+        "hex_value": "#000000",
+        "colour_name": "Blackest Black "
+      },
+      {
+        "hex_value": "#2d1e17",
+        "colour_name": "Brownish Black "
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "maybelline",
+    "name": "Maybelline Lash Stiletto Ultimate Length Mascara",
+    "price": "10.99",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/812b5ae27df9be983052063d52d7ab7a_ra,w158,h184_pa,w158,h184.jpeg",
+    "product_link": "https://well.ca/products/maybelline-lash-stiletto-ultimate_17287.html",
+    "website_link": "https://well.ca",
+    "description": "The only mascara that does for lashes what stilettos do for legs.\n\n    The Grip & Extend brush grasps each lash and coats from every angle\n    Elastic formula stretches lashes for provocative length\n    Pro-Vitamin B-5 formula conditions and smoothes for black-patent shine\n    Contact lens safe and Ophthalmologist tested\n    Waterproof \n\n ",
+    "rating": 4.0,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:10:55.406Z",
+    "updated_at": "2017-12-23T20:31:47.606Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/8.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/008/original/data?1514061107",
+    "product_colors": [
+      {
+        "hex_value": "#0E0F11",
+        "colour_name": "Very Black "
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "maybelline",
+    "name": "Maybelline Volum'Express the Falsies Mascara",
+    "price": "9.79",
+    "price_sign": null,
+    "currency": null,
+    "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/af1f35f15ee64cc1003f1ccfc6451d71_ra,w158,h184_pa,w158,h184.jpeg",
+    "product_link": "https://well.ca/products/maybelline-volumexpress-the-falsies_26311.html",
+    "website_link": "https://well.ca",
+    "description": "False lash glam in a tube, instantly!The Falsies Mascara delivers a false lash look, giving you a full set of voluminous, bold, fanned-out lashes and the appearance of no gaps from any angle.The Pro-Keratin Fiber enriched formula is designed to deliver immediate results, distributing volume and visible intensity to your lashes. The spoon-shaped brush helps fan lashes out.The Falsies Mascara is designed to give the appearance of no gaps and spaces. In a wink, lashes you didn’t even know you had look visibly thickened!",
+    "rating": 4.0,
+    "category": null,
+    "product_type": "mascara",
+    "tag_list": [
+      
+    ],
+    "created_at": "2016-10-01T18:10:54.660Z",
+    "updated_at": "2017-12-23T20:31:47.473Z",
+    "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/7.json",
+    "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/007/original/data?1514061107",
+    "product_colors": [
+      {
+        "hex_value": "#0E0F11",
+        "colour_name": "Very Black "
+      }
+    ]
+  }
+
+]
+}
