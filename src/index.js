@@ -30,22 +30,18 @@ btn.className = 'shop-item-button'
   li.append(pName,img,pPrice,btn)
   document.querySelector('#makeup-list').append(li)
 
+  //add event
+  //btn.addEventListener('click',addItemToCart)
+
   }
 //fetch request 
   function getItems(){
     fetch('http://localhost:3000/maybelline')
     .then(res=> res.json())
-    .then(recipes=>recipes.forEach(renderCard)
+    .then(makeup=>makeup.forEach(renderCard)
    
     )
   }
-  // function getItems(){
-  //   fetch('http://localhost:3000/toys')
-  //   .then(res=> res.json())
-  //   .then(recipes=>recipes.forEach(renderCard)
-   
-  //   )
-  // }
 
   // add comments to the dream dusk
 document.getElementById('comment-form').addEventListener('submit',
@@ -63,10 +59,29 @@ evt =>{
     return evt.target.remove()
      }
 
-//cart section
+ //Wish list items
+ const form = document.getElementById('form-wrapper')
+ form.addEventListener('submit',createWishItem)
+ function createWishItem(e){
+   e.preventDefault()
+   let newWishItemObj = {
+     name:e.target.makeup.value,
+     image:e.target.imageUrl.value,
+     price:e.target = 'Not for Purchase',
+     //button:e.target.value = 'wish'
+     //btn:e.target.button ='Wish'
+   }
+   renderCard(newWishItemObj)
+  // postRamen(newRamenObj)
+   form.reset()
+ } 
+
+ //Add items to the cart
+ 
+
 //remove items from the cart
 let removeCartItemButtons =document.getElementsByClassName('btn-danger')
-console.log(removeCartItemButtons)
+//console.log(removeCartItemButtons)
 for(let i = 0;i < removeCartItemButtons.length;i++){
   let button = removeCartItemButtons[i]
   button.addEventListener('click',function(event){

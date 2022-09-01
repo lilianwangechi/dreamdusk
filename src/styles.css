@@ -261,3 +261,7 @@ textarea {
   margin: 40px auto 80px auto;
   font-size: 1.35em;
 }
+.shop-item-button:hover,
+.shop-item-button:focus {
+  background: burlywood;
+  }
