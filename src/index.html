@@ -24,7 +24,7 @@
     </div>
     </section>
    
-      <!--add recipes form -->
+      <!--add makeup  form -->
       <div id="form-wrapper">
         <form class="makeup-form">
           <legend>Add Your Makeup</legend>
@@ -37,28 +37,42 @@
           <label for="description">Description:</label>
           <textarea id="makeup-description" rows="auto"name="description" required></textarea><br>
   
-          <!-- <label for="Author">Author:</label>
-          <input type="text" id="food-author" name="author" required><br> -->
-         
-          <!-- <label for="ingredients">Ingredients:</label>
-          <textarea id="ingredients" rows="5" cols="66.8" name="ingredients" required ></textarea><br> -->
-  
-          <!-- <label for="method">Method:</label>
-          <textarea id="food-method" rows="5" cols="66.8"  name="method"></textarea><br> -->
           <button type="submit" class="addMakeup-button" >Submit</button><br><br><br>
         </form>
-     
-    <!--end part 3 sections 12 days to christmas, recipe of the day,submit form -->
-    <article>
-      <section>
-     <!-- 12 days to christmas -->
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit dolorum atque ratione tempore officia nobis ut iste id deserunt, hic maxime dicta tenetur voluptas quia nostrum eveniet ipsam commodi.</p>
+     <!-- Add comments -->
+     <div class="commentslist">
+        <ul id="comments-list" class="comments">
+          <li></li> 
+        </ul>
+      </div> 
+        <form id="comment-form" class="comment-form">
+          <input
+            class="comment-input"
+            type="text"
+            name="comment"
+            id="comment"
+            placeholder="Add a comment..."
+            
+          />
+          <button class="comment-button" type="submit">Post</button>
+        </form>
+
+        <!-- shopping cart section -->
+        <section class="container content-section">
+          <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+              <span class="cart-item cart-header cart-column">ITEM</span>
+              <span class="cart-price cart-header cart-column">PRICE</span>
+              <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+          </div>
+          <div class="cart-total">
+              <strong class="cart-total-title">Total</strong>
+              <span class="cart-total-price">$0</span>
+          </div>
+          <button class="btn btn-primary btn-checkout" type="button">CHECKOUT</button>
       </section>
-      <section>
-      <!-- recipe of the season with most likes -->
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. A harum ullam incidunt magni sit dignissimos ut expedita. A voluptatibus voluptatum quia! Minus alias eaque minima, aliquid odit esse fuga rerum!
-      </section>
-    </article>
   <footer>
     <!-- … fb,name,share,copyright, list of links go here -->
      footer
