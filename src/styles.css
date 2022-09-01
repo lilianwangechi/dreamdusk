@@ -206,15 +206,15 @@ textarea {
 }
 
 .btn-danger {
-  color: white;
-  background-color: rgb(173, 14, 14)5757;
+  color: #eb0606;
+  background-color: rgb(138, 59, 59)5757;
   border: none;
   border-radius: .3em;
   font-weight: bold;
 }
 
 .btn-danger:hover {
-  background-color: rgb(173, 14, 14)
+  background-color: rgb(24, 20, 20)
 }
 
 .cart-quantity-input {
@@ -256,7 +256,7 @@ textarea {
   font-size: 1.1em;
 }
 
-.btn-checkout {
+.btn-purchase {
   display: block;
   margin: 40px auto 80px auto;
   font-size: 1.35em;
