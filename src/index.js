@@ -4,10 +4,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   renderCard()
   
   })
-  
-  //render the food recipes
-  //create dom elements
-  
+//create the makeup cards
   function renderCard(cardData){
     const li = document.createElement('li')
     const pName = document.createElement('h3')
@@ -43,6 +40,7 @@ btn.className = 'shop-item-button'
     )
   }
 
+
   // add comments to the dream dusk
 document.getElementById('comment-form').addEventListener('submit',
 evt =>{
@@ -59,22 +57,6 @@ evt =>{
     return evt.target.remove()
      }
 
- //Wish list items
- const form = document.getElementById('form-wrapper')
- form.addEventListener('submit',createWishItem)
- function createWishItem(e){
-   e.preventDefault()
-   let newWishItemObj = {
-     name:e.target.makeup.value,
-     image:e.target.imageUrl.value,
-     price:e.target = 'Not for Purchase',
-     //button:e.target.value = 'wish'
-     //btn:e.target.button ='Wish'
-   }
-   renderCard(newWishItemObj)
-  // postRamen(newRamenObj)
-   form.reset()
- } 
 
 //  //Add items to the cart
 function addItemToCartClicked(event){
@@ -84,6 +66,7 @@ function addItemToCartClicked(event){
   let priceItem = shopItem.getElementsByClassName('shop-item-price')[0].textContent
   let imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
 
+  //class names 
   console.log(itemTitle,priceItem,imageSrc)
   addItemToCart(itemTitle,priceItem,imageSrc)
 
@@ -115,6 +98,9 @@ function addItemToCart(itemTitle,priceItem,imageSrc){
     `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
+    console.log(cartRow)
+    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click',removeCartItemButtons)
+    cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change',quantityChanged)
 }
 
 //remove items from the cart
@@ -159,3 +145,20 @@ function updateCartTotal() {
   total = Math.round(total * 100) / 100 //rounding the price
   document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
 }
+
+ //Wish list items
+ const form = document.getElementById('form-wrapper')
+ form.addEventListener('submit',createWishItem)
+ function createWishItem(e){
+   e.preventDefault()
+   let newWishItemObj = {
+     name:e.target.makeup.value,
+     image:e.target.imageUrl.value,
+     price:e.target = 'Not for Purchase',
+     //button:e.target.value = 'wish'
+     //btn:e.target.button ='Wish'
+   }
+   renderCard(newWishItemObj)
+   form.reset()
+ } 
+
