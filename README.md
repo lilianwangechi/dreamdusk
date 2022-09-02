@@ -27,7 +27,7 @@ The application will have a
 
 ## Setup and installation
 To set this project up on your local machine ,follow the following steps:
--git clone `
+-git clone `https://github.com/lilianwangechi/dreamdusk`
 -run the live server. 
 -run watch db.json server
 
@@ -37,10 +37,10 @@ To set this project up on your local machine ,follow the following steps:
 -Bootstrap
 -js
 ## Behavior Driven Development
-Behaviour :view makeup products and click to purchase what you want----------------------------------------              
+Behaviour :view makeup products and click to purchase what you want.           
 Input:the user can post wishlist products that they would want to purchase later in future      
-|Output:Display items in the cart ,Images displayed on the page          |
---------------------     
+Output:Display items in the cart ,Images displayed on the page          |
+ 
  
 ## Known Bugs
 No Known Bugs 
