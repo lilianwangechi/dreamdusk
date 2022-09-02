@@ -7,6 +7,7 @@ header,
  font-family: arial, san-serif;
  font-size: 25px;
  text-align: center;
+ color:black;
  padding: 30px;
  margin-bottom: 20px;
  }
@@ -44,10 +45,10 @@ background-size: 100%;
 }
 
 .makeup-list {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
 
 }
@@ -56,12 +57,12 @@ background-size: 100%;
   margin: 10px;
   padding: 10px;
   display:grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto ;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  /* border-top: solid;
-  border-width:thin medium thick 10px; */
+  justify-content:space-between;
+   border-top: solid;
+  border-width:thin medium thick 10px;
 }
 
 .makeuplist-li{
@@ -70,12 +71,12 @@ background-size: 100%;
   box-shadow: 8px 10px #c9c8c8;
   padding: 5px;
   margin:10px;
-  font-size: 15px;
+  
 
 }
-.makeuplist-li img{
-  width:190px;
-}
+
+
+
 .makeuplist-li button{
   width:190px;
   margin: 15px 5px 15px 5px;
@@ -265,5 +266,5 @@ textarea {
 }
 .shop-item-button:hover,
 .shop-item-button:focus {
-  background: burlywood;
+  background: #a05252;
   }

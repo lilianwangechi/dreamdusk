@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 //create the makeup cards
   function renderCard(cardData){
     const li = document.createElement('li')
-    const pName = document.createElement('h3')
+    const pName = document.createElement('h5')
     const img = document.createElement('img')
     const pPrice = document.createElement('p')
     const btn = document.createElement('button')
