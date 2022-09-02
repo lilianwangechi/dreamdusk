@@ -31,7 +31,7 @@ btn.className = 'shop-item-button'
   document.querySelector('#makeup-list').append(li)
 
   //add event
-  //btn.addEventListener('click',addItemToCart)
+  btn.addEventListener('click',addItemToCartClicked)
 
   }
 //fetch request 
@@ -76,8 +76,46 @@ evt =>{
    form.reset()
  } 
 
- //Add items to the cart
- 
+//  //Add items to the cart
+function addItemToCartClicked(event){
+  let buttonBuy = event.target
+  let shopItem = buttonBuy.parentElement
+  let itemTitle = shopItem.getElementsByClassName('shop-item-title')[0].textContent
+  let priceItem = shopItem.getElementsByClassName('shop-item-price')[0].textContent
+  let imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
+
+  console.log(itemTitle,priceItem,imageSrc)
+  addItemToCart(itemTitle,priceItem,imageSrc)
+
+}
+
+function addItemToCart(itemTitle,priceItem,imageSrc){
+    let cartRow = document.createElement('div')
+    cartRow.classList.add('cart-row')
+    let cartItems = document.getElementsByClassName('cart-items')[0]
+    let cartItemNames =cartItems.getElementsByClassName('cart-item-title')
+    for(let i = 0; i < cartItemNames.length; i++){
+      if (cartItemNames[i].textContent == itemTitle){
+        alert('This item is already added to the cart')
+        return
+      }
+    }
+    let cartRowContents = `
+    <div class="cart-items">
+              <div class="cart-row">
+                  <div class="cart-item cart-column">
+                      <img class="cart-item-image" src="${imageSrc}">
+                      <span class="cart-item-title">${itemTitle}</span>
+                  </div>
+                  <span class="cart-price cart-column">${priceItem}</span>
+                  <div class="cart-quantity cart-column">
+                      <input class="cart-quantity-input" type="number" value="1">
+                      <button class="btn btn-danger" type="button">REMOVE</button>
+                  </div>
+    `
+    cartRow.innerHTML = cartRowContents
+    cartItems.append(cartRow)
+}
 
 //remove items from the cart
 let removeCartItemButtons =document.getElementsByClassName('btn-danger')
