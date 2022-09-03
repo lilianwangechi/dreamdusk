@@ -1,7 +1,7 @@
 header,
  nav,
- section,
- footer {
+ section
+ {
 
  border-radius: 5px;
  font-family: arial, san-serif;
@@ -26,9 +26,10 @@ header,
 }
 header div h1, header div h2{
   text-align: center;
-  color: rgb(184, 42, 42);
+  color: white;
   text-shadow: 2px 4px #252525;
   font-family: Verdana;
+  font-size:100px;
 }
 
 
@@ -68,7 +69,7 @@ background-size: 100%;
 .makeuplist-li{
   list-style: none;
   width:200px;
-  box-shadow: 8px 10px #c9c8c8;
+  box-shadow:  8px 10px #c9c8c8;
   padding: 5px;
   margin:10px;
   
@@ -268,3 +269,11 @@ textarea {
 .shop-item-button:focus {
   background: #a05252;
   }
+.footer{
+  border-radius: 5px;
+  font-family: arial, san-serif;
+  font-size: 15px;
+  text-align: center;
+  color:black;
+  margin-bottom: 0px;
+}

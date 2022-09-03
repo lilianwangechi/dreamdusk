@@ -43,7 +43,9 @@ Output:Display items in the cart ,Images displayed on the page          |
  
  
 ## Known Bugs
-No Known Bugs 
+-The form is not functioning
+-The total price is increasing by 2
+-It does not update when the item is removed from the cart
 
 
 ## Contact Information
@@ -52,4 +54,4 @@ For contribution contact email lilian.wangechi@student.moringaschool.com
 
 ## License
 MIT
-COPYRIGHT
+COPYRIGHT @2022

@@ -2,7 +2,11 @@ console.log("here")
 document.addEventListener('DOMContentLoaded',()=>{
   getItems()
   renderCard()
-  
+ // updateCartTotal()
+  //post request
+  // const wishItemsForm = document.querySelector('#makeup-form')
+  // wishItemsForm.addEventListener('submit',onWishFormSubmit)
+  // document.getElementById('makeup-imageUrl').addEventListener('change',getImage)
   })
 //create the makeup cards
   function renderCard(cardData){
@@ -40,25 +44,35 @@ btn.className = 'shop-item-button'
     )
   }
 
+  
 
   // add comments to the dream dusk
-document.getElementById('comment-form').addEventListener('submit',
-evt =>{
-  evt.preventDefault();
-  const newComment =document.getElementById('comment').value;
-  //li.className ='commentslist-li'
-  document.getElementById('comments-list').innerHTML +=
-  `<li onClick="removeComment(event)" >${newComment}</li>`;
-  evt.target.reset();
-},
-)
-//remove comment
- function removeComment(evt){
-    return evt.target.remove()
-     }
+// document.getElementById('comment-form').addEventListener('submit',
+// evt =>{
+//   evt.preventDefault();
+//   const newComment =document.getElementById('comment').value;
+//   //li.className ='commentslist-li'
+//   document.getElementById('comments-list').innerHTML +=
+//   `<li onClick="removeComment(event)" >${newComment}</li>`;
+//   evt.target.reset();
+// // },
+// // )
+// //remove comment
+//  function removeComment(evt){
+//     return evt.target.remove()
+//      }
 
 
 //  //Add items to the cart
+// let addToCartButtons = document.getElementsByClassName('shop-item-button')
+// for (let i = 0; i < addToCartButtons.length; i++) {
+//     let buttonBuy = addToCartButtons[i]
+//     buttonBuy.addEventListener('click', addItemToCartClicked)
+// }
+
+//document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+
+
 function addItemToCartClicked(event){
   let buttonBuy = event.target
   let shopItem = buttonBuy.parentElement
@@ -67,8 +81,9 @@ function addItemToCartClicked(event){
   let imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
 
   //class names 
-  console.log(itemTitle,priceItem,imageSrc)
+  //console.log(itemTitle,priceItem,imageSrc)
   addItemToCart(itemTitle,priceItem,imageSrc)
+  updateCartTotal()
 
 }
 
@@ -98,28 +113,33 @@ function addItemToCart(itemTitle,priceItem,imageSrc){
     `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
-    console.log(cartRow)
-    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click',removeCartItemButtons)
+    //console.log(cartRow)
+    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click',removeCartItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change',quantityChanged)
+    //updateCartTotal
 }
 
 //remove items from the cart
 let removeCartItemButtons =document.getElementsByClassName('btn-danger')
 //console.log(removeCartItemButtons)
 for(let i = 0;i < removeCartItemButtons.length;i++){
-  let button = removeCartItemButtons[i]
-  button.addEventListener('click',function(event){
-    let buttonClicked = event.target
-    buttonClicked.parentElement.parentElement.remove()
-    updateCartTotal()
-  })
+  let buttonRemove = removeCartItemButtons[i]
+  buttonRemove.addEventListener('click',removeCartItem)
 }
+function removeCartItem(event){
+  let buttonClicked = event.target
+  buttonClicked.parentElement.parentElement.remove()
+  updateCartTotal()
+  console.log(event)
+}
+
 //quantity
 let quantityInputs = document.getElementsByClassName('cart-quantity-input')
 for(let i = 0; i < quantityInputs.length; i++){
   let input = quantityInputs[i]
   input.addEventListener('change',quantityChanged)
 }
+
 function quantityChanged(event){
   let input = event.target
   if(isNaN(input.value) || input.value <= 0){
@@ -139,46 +159,61 @@ function updateCartTotal() {
     let quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
     let price = parseFloat(priceElement.innerText.replace('$', ''))
     let quantity = quantityElement.value
-    total = total + (price * quantity)
-      console.log(priceElement,quantityElement)
+    //total = total + (price * quantity)
+    total = total +(price*quantity)
+    console.log(price,quantity)
+    
+      //console.log(priceElement,quantityElement)
   }
+  //console.log(priceElement,quantityElement,price)
   total = Math.round(total * 100) / 100 //rounding the price
   document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+  console.log(total)
 }
 
  //Wish list items
 
- let wishImage
- const apiHost ='http://localhost:3000';
+ let wishImage;
+ const apiHost = 'http://localhost:3000/wishList';
 
  function onWishFormSubmit(evt){
   evt.preventDefault();
 
+  
+  const makeupName = document.getElementById('makeup-name').value;
+   //image url wishList image
   const commentsText = document.getElementById('commentsText').value;
-  const image = document.getElementById('makeup-imageUrl').value
+ 
+  const fetchParameter ={
+    method:'POST',
+    body:JSON.stringify({
+      makeupName ,
+      wishImage,
+      commentsText
+    }),
+    headers:{
+      "Content-Type":"application/json"
+    } 
+  }
+  //console.log(fetchParameter)
+
+  fetch('http://localhost:3000/wishList', fetchParameter).then((response)=>{
+   console.log(response)
+  });
   
  }
  function getImage(evt){
   const file = evt.target.files[0];
   const fileReader = new FileReader();
-
-  
+  fileReader.onload = e => {
+    wishImage = e.target.result;
+  }
+fileReader.readAsDataURL(file); 
  }
+function getAndLoadWish(){
+  //
+  document.getElementById
+}
 
 
-
-//  const form = document.getElementById('form-wrapper')
-//  form.addEventListener('submit',createWishItem)
-//  function createWishItem(e){
-//    e.preventDefault()
-//    let newWishItemObj = {
-//      name:e.target.makeup.value,
-//      image:e.target.imageUrl.value,
-//      price:e.target = 'Not for Purchase',
-//      //button:e.target.value = 'wish'
-//      //btn:e.target.button ='Wish'
-//    }
-//    renderCard(newWishItemObj)
-//    form.reset()
-//  } 
 
