@@ -147,18 +147,38 @@ function updateCartTotal() {
 }
 
  //Wish list items
- const form = document.getElementById('form-wrapper')
- form.addEventListener('submit',createWishItem)
- function createWishItem(e){
-   e.preventDefault()
-   let newWishItemObj = {
-     name:e.target.makeup.value,
-     image:e.target.imageUrl.value,
-     price:e.target = 'Not for Purchase',
-     //button:e.target.value = 'wish'
-     //btn:e.target.button ='Wish'
-   }
-   renderCard(newWishItemObj)
-   form.reset()
- } 
+
+ let wishImage
+ const apiHost ='http://localhost:3000';
+
+ function onWishFormSubmit(evt){
+  evt.preventDefault();
+
+  const commentsText = document.getElementById('commentsText').value;
+  const image = document.getElementById('makeup-imageUrl').value
+  
+ }
+ function getImage(evt){
+  const file = evt.target.files[0];
+  const fileReader = new FileReader();
+
+  
+ }
+
+
+
+//  const form = document.getElementById('form-wrapper')
+//  form.addEventListener('submit',createWishItem)
+//  function createWishItem(e){
+//    e.preventDefault()
+//    let newWishItemObj = {
+//      name:e.target.makeup.value,
+//      image:e.target.imageUrl.value,
+//      price:e.target = 'Not for Purchase',
+//      //button:e.target.value = 'wish'
+//      //btn:e.target.button ='Wish'
+//    }
+//    renderCard(newWishItemObj)
+//    form.reset()
+//  } 
 

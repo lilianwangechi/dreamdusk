@@ -71,11 +71,11 @@
           <label for="Item name">Item Name:</label>
           <input type="text" id="makeup-name" name="makeup" required><br>
   
-          <label for="imageUrl">Makeup Image url:</label>
-          <input type="text" id="makeup-imageUrl" name="imageUrl" required><br>
+          <label for="imageUrl">Paste Image url:</label>
+          <input type="file" id="makeup-imageUrl" name="imageUrl" onChange="getImage(event)" required><br>
         
-          <label  for="description">Add Comment:</label>
-          <textarea id="comments" rows="auto"name="comments"  value="customers wish"></textarea><br>
+          <label  for="comment">Add Comment:</label>
+          <textarea id="commentsText" rows="auto"name="commentsText"  value="customers wish"></textarea><br>
   
           <button type="submit" class="addMakeup-button" >Submit</button><br><br><br>
         </form>
