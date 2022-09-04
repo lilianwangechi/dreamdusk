@@ -275,3 +275,10 @@ textarea {
   color:black;
   margin-bottom: 0px;
 }
+.list-footer li{
+  list-style: none;
+  display:inline;
+  width:200px;
+  padding: 5px;
+  margin:10px;
+}
