@@ -148,6 +148,18 @@ function quantityChanged(event){
 updateCartTotal()
 }
 
+//alert for the purchase and remove items from the cart to simulate a purchase
+document.getElementsByClassName('btn-purchase')[0].addEventListener('click',puchaseClicked)
+
+function puchaseClicked(){
+  alert('Thank you for your purchase')
+  let cartItems = document.getElementsByClassName('cart-items')[0]
+  while(cartItems.hasChildNodes()){
+    cartItems.removeChild(cartItems.firstChild)
+  }
+  updateCartTotal()
+}
+
 //update element prices when removed
 function updateCartTotal() {
   let cartItemContainer = document.getElementsByClassName('cart-items')[0]
@@ -171,49 +183,49 @@ function updateCartTotal() {
   console.log(total)
 }
 
- //Wish list items
+//  //Wish list items continue working on this
 
- let wishImage;
- const apiHost = 'http://localhost:3000/wishList';
+//  let wishImage;
+//  const apiHost = 'http://localhost:3000/wishList';
 
- function onWishFormSubmit(evt){
-  evt.preventDefault();
+//  function onWishFormSubmit(evt){
+//   evt.preventDefault();
 
   
-  const makeupName = document.getElementById('makeup-name').value;
-   //image url wishList image
-  const commentsText = document.getElementById('commentsText').value;
+//   const makeupName = document.getElementById('makeup-name').value;
+//    //image url wishList image
+//   const commentsText = document.getElementById('commentsText').value;
  
-  const fetchParameter ={
-    method:'POST',
-    body:JSON.stringify({
-      makeupName ,
-      wishImage,
-      commentsText
-    }),
-    headers:{
-      "Content-Type":"application/json"
-    } 
-  }
-  //console.log(fetchParameter)
+//   const fetchParameter ={
+//     method:'POST',
+//     body:JSON.stringify({
+//       makeupName ,
+//       wishImage,
+//       commentsText
+//     }),
+//     headers:{
+//       "Content-Type":"application/json"
+//     } 
+//   }
+//   //console.log(fetchParameter)
 
-  fetch('http://localhost:3000/wishList', fetchParameter).then((response)=>{
-   console.log(response)
-  });
+//   fetch('http://localhost:3000/wishList', fetchParameter).then((response)=>{
+//    console.log(response)
+//   });
   
- }
- function getImage(evt){
-  const file = evt.target.files[0];
-  const fileReader = new FileReader();
-  fileReader.onload = e => {
-    wishImage = e.target.result;
-  }
-fileReader.readAsDataURL(file); 
- }
-function getAndLoadWish(){
-  //
-  document.getElementById
-}
+//  }
+//  function getImage(evt){
+//   const file = evt.target.files[0];
+//   const fileReader = new FileReader();
+//   fileReader.onload = e => {
+//     wishImage = e.target.result;
+//   }
+// fileReader.readAsDataURL(file); 
+//  }
+// function getAndLoadWish(){
+//   //
+//   document.getElementById
+// }
 
 
 
