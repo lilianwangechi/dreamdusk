@@ -23,7 +23,7 @@ img.className = 'shop-item-image'
 pPrice.className = 'shop-item-price'
 btn.className = 'shop-item-button'
 
-  pName.textContent = `${cardData.name}`
+  pName.textContent = cardData.name
   img.src =cardData.image_link,
   pPrice.textContent = `$${cardData.price}`
   btn.textContent ='Buy',
@@ -113,10 +113,10 @@ function addItemToCart(itemTitle,priceItem,imageSrc){
     `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
-    //console.log(cartRow)
+    //event listeners for the cart section
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click',removeCartItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change',quantityChanged)
-    //updateCartTotal
+   //updateCartTotal()
 }
 
 //remove items from the cart
@@ -130,7 +130,7 @@ function removeCartItem(event){
   let buttonClicked = event.target
   buttonClicked.parentElement.parentElement.remove()
   updateCartTotal()
-  console.log(event)
+  //console.log(event)
 }
 
 //quantity
@@ -171,9 +171,9 @@ function updateCartTotal() {
     let quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
     let price = parseFloat(priceElement.innerText.replace('$', ''))
     let quantity = quantityElement.value
-    //total = total + (price * quantity)
+   console.log(price * quantity)
     total = total +(price*quantity)
-    console.log(price,quantity)
+    //console.log(price,quantity)
     
       //console.log(priceElement,quantityElement)
   }

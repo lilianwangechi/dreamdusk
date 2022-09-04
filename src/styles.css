@@ -177,10 +177,7 @@ textarea {
 }
 
 .cart-row {
-  display:flex;
-  font-size: small;
-  
-  
+  display: flex;
 }
 
 .cart-item {
@@ -210,23 +207,23 @@ textarea {
 }
 
 .btn-danger {
-  color: #eb0606;
-  background-color: rgb(138, 59, 59)5757;
+  color: white;
+  background-color: #EB5757;
   border: none;
   border-radius: .3em;
   font-weight: bold;
 }
 
 .btn-danger:hover {
-  background-color: rgb(24, 20, 20)
+  background-color: #CC4C4C;
 }
 
 .cart-quantity-input {
   height: 34px;
   width: 50px;
   border-radius: 5px;
-  border: 1px solid #c9c8c8;
-  background-color: rgb(255, 255, 255);
+  border: 1px solid #CC4C4C;
+  background-color: #c9c8c8;
   color: #333;
   padding: 0;
   text-align: center;
@@ -261,9 +258,10 @@ textarea {
 }
 
 .btn-purchase {
-  display: block;
+  display:block;
+
   margin: 40px auto 80px auto;
-  font-size: 1.35em;
+  font-size: 1.75em;
 }
 .shop-item-button:hover,
 .shop-item-button:focus {
