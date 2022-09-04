@@ -43,7 +43,7 @@ Output:Display items in the cart ,Images displayed on the page          |
  
  
 ## Known Bugs
--The form is not functioning
+-The user can not add their wishlist item yet hence the form is not functioning becayse the post request has issues
 -The total price is increasing by 2
 -It does not update when the item is removed from the cart
 
